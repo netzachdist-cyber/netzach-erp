@@ -1,0 +1,37 @@
+{
+  "name": "Netzach ERP",
+  "short_name": "Netzach",
+  "description": "Sistema ERP Netzach - Comércio e Distribuição",
+  "start_url": "./Netzach_ERP_PWA.html",
+  "display": "standalone",
+  "background_color": "#1f3864",
+  "theme_color": "#1f3864",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "netzach_logo_hd_transparente__4_.png",
+      "sizes": "any",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["business", "productivity"],
+  "screenshots": [],
+  "shortcuts": [
+    {
+      "name": "Dashboard",
+      "url": "./Netzach_ERP_PWA.html#dashboard",
+      "description": "Ir para Dashboard"
+    },
+    {
+      "name": "Pregões PNCP",
+      "url": "./Netzach_ERP_PWA.html#pregoes",
+      "description": "Ver Pregões PNCP"
+    },
+    {
+      "name": "Financeiro",
+      "url": "./Netzach_ERP_PWA.html#financeiro",
+      "description": "Gestão Financeira"
+    }
+  ]
+}
