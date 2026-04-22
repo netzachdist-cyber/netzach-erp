@@ -1,0 +1,19 @@
+{
+  "name": "Netzach ERP Mobile",
+  "short_name": "Netzach",
+  "description": "Sistema ERP Netzach - Versão Mobile",
+  "start_url": "./Netzach_ERP_PWA.html",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#1f3864",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "icon-blue-clean.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["business", "productivity"]
+}
