@@ -3017,7 +3017,7 @@ async function syncPNCP_internal() {
                  'alimento', 'alimentacao', 'merenda', 'cesta', 'basica', 'genero', 'perecivel', 
                  'hortifruti', 'acougue', 'padaria', 'lanche', 'refeicao', 'nutrição'];
     
-    const apiUrl = `https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=${fmt(ini)}&dataFinal=${fmt(hoje)}&uf=TO&codigoModalidadeContratacao=6&pagina=1&tamanhoPagina=50`;
+    const apiUrl = `https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=${fmt(ini)}&dataFinal=${fmt(hoje)}&uf=TO&pagina=1&tamanhoPagina=50`;
     
     let data = null;
     try {
